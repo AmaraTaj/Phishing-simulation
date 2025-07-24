@@ -1,0 +1,8 @@
+campaign_id,email,time,message,details
+6,,2025-07-24T15:05:14.8974319Z,Campaign Created,
+6,ammarataj27@gmail.com,2025-07-24T15:05:17.2833073Z,Email Sent,
+6,ammaraht43@gmail.com,2025-07-24T15:05:18.5634988Z,Email Sent,
+6,hinataj15@gmail.com,2025-07-24T15:05:19.6518344Z,Email Sent,
+6,umefarwa82@gmail.com,2025-07-24T15:05:21.094741Z,Email Sent,
+6,ammaraht43@gmail.com,2025-07-24T15:05:53.6117161Z,Clicked Link,"{""payload"":{""rid"":[""68qW6th""]},""browser"":{""address"":""::1"",""user-agent"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0""}}"
+6,ammaraht43@gmail.com,2025-07-24T15:06:12.7574337Z,Submitted Data,"{""payload"":{""login"":[""Login""],""password"":[""amarat43@""],""rid"":[""68qW6th""],""username"":[""ammarahtaj27@gmail.com""]},""browser"":{""address"":""::1"",""user-agent"":""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0""}}"
