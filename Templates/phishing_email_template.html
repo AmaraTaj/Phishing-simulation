@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Security Alert</title>
+	<meta name="format-detection" content="email=no"/><meta name="format-detection" content="date=no"/>
+	<style type="text/css">.button {
+      background-color: #1a73e8;
+      border: none;
+      color: white;
+      padding: 10px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin-top: 20px;
+      border-radius: 4px;
+      font-family: 'Google Sans', Roboto, Helvetica, Arial, sans-serif;
+    }
+    .button:hover {
+      background-color: #0c5ed7;
+    }
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet" />
+</head>
+<body bgcolor="#FFFFFF" style="margin: 0; padding: 0;">
+<table border="0" cellpadding="0" cellspacing="0" style="padding-bottom: 20px; max-width: 516px; min-width: 220px;">
+	<tbody>
+		<tr>
+			<td style="width: 8px;" width="8">&nbsp;</td>
+			<td>
+			<div align="center" style="border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;"><img alt="Google" height="24" src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" style="margin-bottom: 16px;" width="74" />
+			<div style="font-family: 'Google Sans',Roboto,Helvetica,Arial,sans-serif; border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px; text-align: center;">
+			<div style="font-size: 24px;">Change your Password Now</div>
+
+			<table align="center" style="margin-top:8px;">
+				<tbody>
+					<tr style="line-height: normal;">
+						<td align="right" style="padding-right:8px;"><img alt="" height="20" src="https://lh3.googleusercontent.com/a/ACg8ocLaLRdpBS0crH3WpH6SL_dau1BJW6kbEHoyXnvb9GQVo5_3yHY-Zg=s96-c" style="width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;" width="20" /></td>
+						<td><a href="{{.URL}}" style="color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">ammaraht43@gmail.com</a></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+
+			<div style="font-family: Roboto,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px; padding-top: 20px; text-align: left;">We noticed some suspicious behaviour on your Google account. If you would like to change your password, click below:</div>
+
+			<div style="text-align: center;"><a class="button" href="{{.URL}}">Change Password Now</a></div>
+
+			<div style="padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center">You can also see security activity at:<br />
+			<a href="{{.URL}}" style="color: rgba(0, 0, 0, 0.87); text-decoration: inherit;">https://myaccount.google.com/notifications</a></div>
+			</div>
+
+			<div style="text-align: center; font-family: Roboto,Helvetica,Arial,sans-serif; color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px;">
+			<div>You received this email to let you know about important changes to your Google Account and services.</div>
+
+			<div>&copy; 2025 Google LLC, <a href="{{.URL}}" style="color: rgba(0,0,0,0.54); text-decoration: none;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div>
+			</div>
+			</td>
+			<td style="width: 8px;" width="8">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><img alt="" src="http://localhost/track?rid=y8jv07o" style="display: none" /></p>
+{{.Tracker}}</body>
+</html>
